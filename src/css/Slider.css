@@ -1,0 +1,39 @@
+.swiper-image{
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 100px;
+}
+button{
+    padding: 10px 40px;
+    border-radius: 5em;
+    color: white;
+    background-color: black;
+}
+h1{
+   color: white;
+   row-gap: -10;
+   font-size: 60px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:768px){
+    .slider-image{
+        height: 700px;
+        object-fit:fill
+    }
+    .container{
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: small;
+    }
+}

@@ -1,0 +1,49 @@
+.responsive-section{
+    max-width: 100%;
+}
+
+.feature{
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+@media (max-width:780px) {
+    .logo-section{
+        display: grid;
+        grid-template-columns: 5fr 5fr 5fr;
+        padding-bottom: 50px;
+        gap: 20px;
+    }
+    .feature{
+        height: max-content;
+    }
+    .logos{
+        height: 40px;
+        width: 60px;
+    }
+    .logo-ben{
+        width: 100px;
+        height: 20px;
+    }
+    .logo-bloo{
+        width: 100px;
+        height: 30px;
+    }
+    .nas{
+        width: 100px;
+        height: 20px;
+    }
+}
