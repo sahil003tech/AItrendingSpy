@@ -1,26 +1,29 @@
 import React from "react";
 import "../css/Action.css";
+import Image from "../Images/Tradingimage.jpg";
 
 const Action = () => {
   return (
     <div className="main">
       <div className="container">
-        <h1 style={{ color: "black" }}>
-          Designed to
+        <h1 style={{ color: "white" }}>
+          AI Working to
           <br />
-          help you invest
+          help you trade
         </h1>
-        <p style={{ color: "black" }}>
-          We belive investing shouldn't take over
+        <p style={{ color: "white" }}>
+          Trading needs an AI partner and no better
           <br />
-          your life , it should allow you to live it.
+          partner for regular traders than AITradingSpy.
         </p>
         <a href="#">
-          <button>Get Started</button>
+          <button style={{ backgroundColor: "#9E52FF" }}>
+            Request Early Access
+          </button>
         </a>
       </div>
       <img
-        src="https://cdn.sanity.io/images/l4rnpwz2/production/d398d14cf3545824af135a0467c0510aa1620cd2-1920x1080.jpg?fm=webp&q=80"
+        src={Image}
         alt=""
         height={900}
         width="100%"

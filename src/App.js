@@ -17,8 +17,8 @@ function App() {
       <Feature />
       <Sliderimage />
       <Action />
-      <Sliderbottom />
-      <Activity />
+      {/* <Sliderbottom />
+      <Activity /> */}
       <Bottomsection />
       <Location />
       <Footer />

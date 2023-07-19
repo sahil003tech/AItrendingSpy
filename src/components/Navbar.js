@@ -50,6 +50,7 @@
 // export default Navbar;
 import React, { useState } from "react";
 import "../css/Navbar.css";
+import Logo from "../Images/background-remove-logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -75,15 +76,22 @@ const Navbar = () => {
           : `navbar ${menuOpen ? "open" : ""}`
       }
     >
-      <div className="logo">AITradingSPy</div>
+      <div className="logo">
+        <img
+          src={Logo}
+          alt=""
+          width={100}
+          height={20}
+          style={{ backgroundColor: "transparent" }}
+        />
+      </div>
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
-        <li>Discover</li>
-        <li>Learn</li>
-        <li>Magnifi+</li>
+        <li>About ATS</li>
+        <li>How It Works</li>
         <li>Sign In</li>
         <li>
           <a href="#">
-            <button className="btn">Get Started</button>
+            <button className="btn">Request Early Access</button>
           </a>
         </li>
       </ul>

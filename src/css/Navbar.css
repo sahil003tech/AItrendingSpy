@@ -75,7 +75,7 @@
     padding: 0.78rem 1rem;
     border-radius: 5em;
     color: black;
-    background-color: rgb(224, 205, 114);
+    background-color: #9E52FF;
 }
 .menu {
     display: flex;
@@ -142,7 +142,7 @@
         display: block;
     }
 }
-@media (min-width:1200px) {
+@media (min-width:800px) {
     .navbar-bg{
         background-color: #333;
         color: #fff;

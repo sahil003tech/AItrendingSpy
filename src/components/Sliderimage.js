@@ -1,6 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Imagef from "../Images/photo-first-fotor-20230719154113.png";
+import Imaget from "../Images/photo-main-fotor-20230719151846.png";
+import Images from "../Images/photo-second-fotor-20230719163026.png";
 import "../css/Slider.css";
 
 import "swiper/css";
@@ -22,21 +25,25 @@ const Sliderimage = () => {
         <div>
           <div className="container">
             <h1>
-              Designed to
+              Build using
               <br />
-              help you invest
+              Strategy Studio
             </h1>
             <p>
-              We belive investing shouldn't take over
+              Strategist Studio helps you build and automate
               <br />
-              your life , it should allow you to live it.
+              using our sophisticated tools and skilled
+              <br />
+              team of developers.
             </p>
             <a href="#">
-              <button>Get Started</button>
+              <button style={{ backgroundColor: "#9E52FF" }}>
+                Request Early access
+              </button>
             </a>
           </div>
           <img
-            src="https://cdn.sanity.io/images/l4rnpwz2/production/38c2915bf654579ca587440ea59795ac9f4764f8-1920x1080.jpg?fm=webp&q=80"
+            src={Imagef}
             alt=""
             height={900}
             width="100%"
@@ -48,21 +55,25 @@ const Sliderimage = () => {
         <div>
           <div className="container">
             <h1>
-              Designed to
+              Optimize using
               <br />
-              help you invest
+              Trade Optimizer
             </h1>
             <p>
-              We belive investing shouldn't take over
+              Trade Optimizer are advanced machine learning
               <br />
-              your life , it should allow you to live it.
+              algorithms that meticulosly scrutinize and
+              <br />
+              Optimize future trades.
             </p>
             <a href="#">
-              <button>Get Started</button>
+              <button style={{ backgroundColor: "#9E52FF" }}>
+                Request Early access
+              </button>
             </a>
           </div>
           <img
-            src="https://cdn.sanity.io/images/l4rnpwz2/production/32b43b264fdfb351267620a226f64346e31c3d18-1920x1080.jpg?fm=webp&q=80"
+            src={Images}
             height={900}
             width="100%"
             className="slider-image"
@@ -73,21 +84,23 @@ const Sliderimage = () => {
         <div>
           <div className="container">
             <h1>
-              Designed to
+              Grow Using
               <br />
-              help you invest
+              Community Builder
             </h1>
             <p>
-              We belive investing shouldn't take over
+              Community builder helps you build,nurture,and
               <br />
-              your life , it should allow you to live it.
+              monetize trading communities.
             </p>
             <a href="#">
-              <button>Get Started</button>
+              <button style={{ backgroundColor: "#9E52FF" }}>
+                Request Early access
+              </button>
             </a>
           </div>
           <img
-            src="https://cdn.sanity.io/images/l4rnpwz2/production/05f6124c4b24d79b05b8bfa3df9856130bfdd883-1920x1080.jpg?fm=webp&q=80"
+            src={Imaget}
             alt=""
             height={900}
             width="100%"

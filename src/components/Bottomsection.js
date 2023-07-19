@@ -3,6 +3,7 @@ import "../css/bottom.css";
 import tick from "../Images/tick.svg";
 import Apple from "../Images/apple.svg";
 import Android from "../Images/android.svg";
+import Image from "../Images/image-trading.png";
 
 const Bottomsection = () => {
   return (
@@ -14,17 +15,22 @@ const Bottomsection = () => {
       <div className="list-section">
         {/* Image  */}
         <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "flex-start",
-          }}
+          // style={{
+          //   width: "50%",
+          //   display: "flex",
+          //   justifyContent: "flex-start",
+          //   alignItems: "flex-start",
+          // }}
+          className="image-left"
         >
           <img
-            src="https://cdn.sanity.io/images/l4rnpwz2/production/26fb4ea8133b953559755087fef15d6a99a84840-1240x521.png?fm=webp&q=80"
+            src={Image}
             alt=""
-            style={{ backgroundColor: "transparent", width: "100%" }}
+            style={{
+              backgroundColor: "transparent",
+              width: "100%",
+              height: "100%",
+            }}
           />
         </div>
         {/* List item */}
@@ -41,7 +47,7 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              Guided goal planing
+              Build and experiment with trading strategies
             </li>
 
             <li>
@@ -55,7 +61,7 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              Always-on conversational assistance
+              Use Marketplace Bots and AI Strategies
             </li>
 
             <li>
@@ -69,7 +75,7 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              Natural language investment search
+              Find your trading support using Natural Language
             </li>
 
             <li>
@@ -83,7 +89,7 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              Powerful investment comparison
+              Monetize your strategies and communities
             </li>
 
             <li>
@@ -97,7 +103,7 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              Commission-free brokerage
+              AI Copilot for your trading
             </li>
 
             <li>
@@ -111,22 +117,31 @@ const Bottomsection = () => {
                   style={{ marginRight: "0.5em" }}
                 />
               </div>
-              High-yield saving over 5% APY
+              Learn and Build with industry leaders
+            </li>
+            <li>
+              <a href="#">
+                <button style={{ backgroundColor: "#FF5757" }}>
+                  Request Early Access
+                </button>
+              </a>
             </li>
           </ul>
 
-          <div
+          {/* <div
             className="right-btn"
             style={{ marginBottom: "16px", marginLeft: "30px" }}
           >
             <a href="#">
-              <button>Get Started</button>
+              <button style={{ backgroundColor: "#FF5757" }}>
+                Request Early Access
+              </button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div
+      {/* <div
         style={{
           display: "flex",
           justifyContent: "center",
@@ -136,7 +151,7 @@ const Bottomsection = () => {
       >
         <img src={Apple} alt="" height={50} />
         <img src={Android} alt="" height={50} />
-      </div>
+      </div> */}
     </div>
   );
 };

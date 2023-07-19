@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import Logo from "../Images/logo.svg";
+import Logo from "../Images/AITradingSpy.png";
 
 const Footer = () => {
   return (
@@ -14,13 +14,12 @@ const Footer = () => {
               fontWeight: "700",
             }}
           >
-            New York Office
+            Tampa Office
           </p>
           <p style={{ fontSize: "0.816em" }}>
-            1 pennsylavina Plaze,
+            501 East Kennedy Boulevard Tampa,
             <br />
-            39th Floor <br />
-            New york,NY 10119
+            FL 33602
           </p>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -31,12 +30,12 @@ const Footer = () => {
               fontWeight: "700",
             }}
           >
-            Boulder Office
+            St Peterburg Office
           </p>
           <p style={{ fontSize: "0.816em" }}>
-            2440 Junction Place, Suite 300,
+            2529 Central Ave, St.Peterburg,
             <br />
-            Boulder, Co 80301
+            FL 33713
           </p>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -56,17 +55,7 @@ const Footer = () => {
           >
             To learn more,contact,
             <br />
-            hello@gmail.com
-          </p>
-          <p
-            style={{
-              fontSize: "0.816em",
-              marginTop: "16px",
-            }}
-          >
-            For Question & support,contact,
-            <br />
-            support@gmail.com
+            support@aitradingspy.com
           </p>
         </div>
         <div>
