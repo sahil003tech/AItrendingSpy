@@ -50,7 +50,7 @@
 // export default Navbar;
 import React, { useState } from "react";
 import "../css/Navbar.css";
-import Logo from "../Images/background-remove-logo.png";
+import Logo from "../Images/navbar-logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -80,9 +80,9 @@ const Navbar = () => {
         <img
           src={Logo}
           alt=""
-          width={100}
-          height={20}
-          style={{ backgroundColor: "transparent" }}
+          width={120}
+          height={40}
+          style={{ backgroundColor: "transparent", marginLeft: "40px" }}
         />
       </div>
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
@@ -90,9 +90,11 @@ const Navbar = () => {
         <li>How It Works</li>
         <li>Sign In</li>
         <li>
-          <a href="#">
-            <button className="btn">Request Early Access</button>
-          </a>
+          <div style={{ marginRight: "40px" }}>
+            <a href="#" style={{ textDecoration: "none" }} className="btn">
+              Request Early Access
+            </a>
+          </div>
         </li>
       </ul>
       <div

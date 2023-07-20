@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import Logo from "../Images/AITradingSpy.png";
+import Logo from "../Images/AITradingSpy_Logo_Simple_Transperent.png";
 
 const Footer = () => {
   return (
@@ -64,7 +64,7 @@ const Footer = () => {
             alt=""
             width={144}
             height={144}
-            style={{ color: "white", backgroundColor: "white" }}
+            style={{ background: "transparent" }}
           />
         </div>
       </div>

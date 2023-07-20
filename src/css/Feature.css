@@ -1,5 +1,5 @@
 .responsive-section{
-    max-width: 100%;
+    width: 100%;
 }
 
 .feature{
@@ -10,6 +10,7 @@
     color: white;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 .logo-section{
@@ -17,11 +18,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 50px;
 }
 @media (max-width:780px) {
     .logo-section{
+        width: 100%;
         display: grid;
         grid-template-columns: 5fr 5fr 5fr;
         padding-bottom: 50px;

@@ -71,11 +71,13 @@
 .logo {
     font-size: 20px;
 }
-.btn {
-    padding: 0.78rem 1rem;
+a{
+    padding: 0.7rem 1rem;
     border-radius: 5em;
     color: black;
-    background-color: #9E52FF;
+    background-color: #5E17EB;
+    box-sizing: border-box;
+    font-family: 'Inter';
 }
 .menu {
     display: flex;
@@ -115,22 +117,24 @@
     .navbar {
         padding: 20px;
         align-items: flex-start;
-        background-color: #333;
+        background-color: #000;
         color: #fff;
     }
 
     .menu {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         display: none;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .menu.open {
         display: flex;
+        margin-left: -300px;
     }
 
     .menu li {
+        margin-left: 0;
         margin-right: 0;
         margin-bottom: 10px;
     }
@@ -144,7 +148,7 @@
 }
 @media (min-width:800px) {
     .navbar-bg{
-        background-color: #333;
+        background-color: #000;
         color: #fff;
     }
 }

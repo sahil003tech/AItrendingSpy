@@ -3,7 +3,7 @@ import "../css/bottom.css";
 import tick from "../Images/tick.svg";
 import Apple from "../Images/apple.svg";
 import Android from "../Images/android.svg";
-import Image from "../Images/image-trading.png";
+import Image from "../Images/image-apple.png";
 
 const Bottomsection = () => {
   return (
@@ -29,7 +29,7 @@ const Bottomsection = () => {
             style={{
               backgroundColor: "transparent",
               width: "100%",
-              height: "100%",
+              height: "550px",
             }}
           />
         </div>
@@ -120,11 +120,15 @@ const Bottomsection = () => {
               Learn and Build with industry leaders
             </li>
             <li>
-              <a href="#">
-                <button style={{ backgroundColor: "#FF5757" }}>
-                  Request Early Access
-                </button>
-              </a>
+              <div>
+                <a
+                  href="#"
+                  className="slider-button"
+                  style={{ backgroundColor: "#FF5757" }}
+                >
+                  Request Early access
+                </a>
+              </div>
             </li>
           </ul>
 

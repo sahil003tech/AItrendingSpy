@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Question from "./Question";
 import Questions from "./Questions";
 import Questiont from "./Questiont";
+import "../css/Location.css";
 
 const Location = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,10 @@ const Location = () => {
           </h1>
         </div>
         {/* question section */}
-        <div>
+        <div
+          // style={{ marginLeft: "100px", marginRight: "100px" }}
+          className="question-section"
+        >
           <Question />
           <Questions />
           <Questiont />
