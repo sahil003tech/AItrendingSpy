@@ -1,0 +1,10 @@
+.third-left{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.third-right{
+    padding: 0 1rem;
+    width: 80%;
+}

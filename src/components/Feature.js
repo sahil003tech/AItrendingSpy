@@ -8,8 +8,9 @@ const Feature = () => {
         <p
           style={{
             fontFamily: "Inter",
-            fontWeight: "600",
+            fontWeight: "400",
             fontSize: "20px",
+            color: "white",
           }}
         >
           As Seen On

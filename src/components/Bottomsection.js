@@ -24,12 +24,12 @@ const Bottomsection = () => {
           className="image-left"
         >
           <img
-            src={Image}
+            src="https://iitfinance.com/img/phone.png"
             alt=""
             style={{
               backgroundColor: "transparent",
               width: "100%",
-              height: "550px",
+              height: "100%",
             }}
           />
         </div>

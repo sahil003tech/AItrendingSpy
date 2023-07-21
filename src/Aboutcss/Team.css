@@ -1,0 +1,15 @@
+.team-container{
+    padding: 0 1rem;
+}
+.team-inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.team-photo{
+    max-width: 100%;
+    height: auto;
+}
+.team-member{
+    width: 30%;
+}

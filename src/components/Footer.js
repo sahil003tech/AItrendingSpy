@@ -12,11 +12,12 @@ const Footer = () => {
               marginBottom: "16px",
               fontSize: "20px",
               fontWeight: "700",
+              color: "white",
             }}
           >
             Tampa Office
           </p>
-          <p style={{ fontSize: "0.816em" }}>
+          <p style={{ fontSize: "0.816em", color: "white" }}>
             501 East Kennedy Boulevard Tampa,
             <br />
             FL 33602
@@ -28,11 +29,12 @@ const Footer = () => {
               marginBottom: "16px",
               fontSize: "20px",
               fontWeight: "700",
+              color: "white",
             }}
           >
             St Peterburg Office
           </p>
-          <p style={{ fontSize: "0.816em" }}>
+          <p style={{ fontSize: "0.816em", color: "white" }}>
             2529 Central Ave, St.Peterburg,
             <br />
             FL 33713
@@ -44,6 +46,7 @@ const Footer = () => {
               marginBottom: "16px",
               fontSize: "20px",
               fontWeight: "700",
+              color: "white",
             }}
           >
             Get in touch with us.
@@ -51,6 +54,7 @@ const Footer = () => {
           <p
             style={{
               fontSize: "0.816em",
+              color: "white",
             }}
           >
             To learn more,contact,

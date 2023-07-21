@@ -15,11 +15,15 @@
     border-radius: 5em;
     color: white;
     background-color: #5E17EB;
+    font-family: 'Inter';
+    font-weight: 500;
 }
 h1{
    color: white;
-   row-gap: -10;
+   /* row-gap: -10; */
    font-size: 60px;
+   font-family: "Inter";
+   font-weight:400
 }
 p{
     color: white;
@@ -33,10 +37,10 @@ p{
     width: 300px;
     border-radius: 20px;
     border: 1px solid white;
-    background: "transparent";
-    /* background-color: #eeeeec; */
-    /* opacity: 0.6; */
-    color: white;
+    /* background: "transparent"; */
+    background-color: #eeeeec;
+    opacity: 0.8;
+    color: black;
     font-family: 'Inter';
     display: flex;
     align-items: center;
@@ -50,8 +54,10 @@ p{
     width: 300px;
     border-radius: 20px;
     border: 1px solid white;
-    background: "transparent";
-    color: white;
+    /* background: "transparent"; */
+    background-color: #eeeeec;
+    opacity: 0.8;
+    color: black;
     font-family: 'Inter';
     display: flex;
     align-items: center;
@@ -65,8 +71,10 @@ p{
     width: 300px;
     border-radius: 20px;
     border: 1px solid white;
-    background: "transparent";
-    color: white;
+    /* background: "transparent"; */
+    background-color: #eeeeec;
+    opacity: 0.8;
+    color: black;
     font-family: 'Inter';
     display: flex;
     align-items: center;
@@ -80,8 +88,10 @@ p{
     width: 300px;
     border-radius: 20px;
     border: 1px solid white;
-    background: "transparent";
-    color: white;
+    /* background: "transparent"; */
+    background-color: #eeeeec;
+    opacity: 0.8;
+    color: black;
     font-family: 'Inter';
     display: flex;
     align-items: center;

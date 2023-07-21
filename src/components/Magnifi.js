@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Magnifi.css";
 import MagnifiSvg from "../Images/magnifi.svg";
-import Image from "../Images/trading-image.png";
+import Image from "../Images/Untitled design (1).png";
 
 const Magnifi = () => {
   // return (
@@ -52,13 +52,7 @@ const Magnifi = () => {
         <h1>Artificial Intelligence</h1>
       </div>
       <div>
-        <img
-          src={Image}
-          alt=""
-          width="100%"
-          height="60%"
-          className="top-animation"
-        />
+        <img src={Image} alt="" width="100%" className="top-animation" />
       </div>
     </div>
   );

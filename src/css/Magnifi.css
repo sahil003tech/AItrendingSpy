@@ -75,15 +75,19 @@
     }
 }
 .css-typing{
-    margin-top: 50px;
+    padding-top: 7.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .css-typing h1 {
     font-weight: 700;
-    font-size: 4.3rem;
+    font-size: 7rem;
     white-space: nowrap;
     overflow: hidden;
-    color: #5E17EB;
+    color: black;
     font-family: 'Inter';
+    margin: 0;
 
 }
 

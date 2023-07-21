@@ -1,27 +1,19 @@
-import Action from "./components/Action";
-import Activity from "./components/Activity";
-import Bottomsection from "./components/Bottomsection";
-import Feature from "./components/Feature";
-import Footer from "./components/Footer";
-import Location from "./components/Location";
-import Magnifi from "./components/Magnifi";
+import Home from "./Pages/Home";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./Pages/About";
 import Navbar from "./components/Navbar";
-import Sliderbottom from "./components/Sliderbottom";
-import Sliderimage from "./components/Sliderimage";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Magnifi />
-      <Feature />
-      <Sliderimage />
-      <Action />
-      {/* <Sliderbottom />
-      <Activity /> */}
-      <Bottomsection />
-      <Location />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -24,24 +24,20 @@ const Sliderimage = () => {
       <SwiperSlide>
         <div>
           <div className="container">
-            <h1>
+            <h1 style={{ color: "white" }}>
               Build using
               <br />
               Strategy Studio
             </h1>
-            <p>
+            <p style={{ color: "white" }}>
               Strategist Studio helps you build and automate
               <br />
               using our sophisticated tools and skilled
               <br />
               team of developers.
             </p>
-            <div>
-              <a
-                href="#"
-                className="slider-button"
-                style={{ marginTop: "40px" }}
-              >
+            <div style={{ marginTop: "40px" }}>
+              <a href="#" className="slider-button">
                 Request Early access
               </a>
             </div>
@@ -49,7 +45,7 @@ const Sliderimage = () => {
           <div className="slide-box">
             <span
               style={{
-                fontWeight: "bold",
+                fontWeight: "300",
                 marginLeft: "10px",
                 marginRight: "10px",
               }}
@@ -60,7 +56,7 @@ const Sliderimage = () => {
             </span>
           </div>
           <img
-            src="https://i.pinimg.com/originals/6b/41/77/6b4177541c596ccf8c6f3894a301b8a6.jpg"
+            src="https://images.unsplash.com/photo-1610247948543-28d438fd094b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
             alt=""
             height={900}
             width="100%"
@@ -71,12 +67,12 @@ const Sliderimage = () => {
       <SwiperSlide>
         <div>
           <div className="container">
-            <h1>
+            <h1 style={{ color: "white" }}>
               Optimize using
               <br />
               Trade Optimizer
             </h1>
-            <p>
+            <p style={{ color: "white" }}>
               Trade Optimizer are advanced machine learning
               <br />
               algorithms that meticulosly scrutinize and
@@ -93,7 +89,7 @@ const Sliderimage = () => {
           <div className="slide-1">
             <span
               style={{
-                fontWeight: "bold",
+                fontWeight: "300",
                 marginLeft: "10px",
                 marginRight: "10px",
               }}
@@ -106,33 +102,34 @@ const Sliderimage = () => {
           <div className="slide-2">
             <span
               style={{
-                fontWeight: "bold",
+                fontWeight: "300",
                 marginLeft: "10px",
                 marginRight: "10px",
               }}
             >
-              "Find what was my best performing trade by risk reward ratio for
-              the past month".
+              " Find what was my best performing trade by risk reward ratio for
+              the past month ".
             </span>
           </div>
 
           <img
-            src="https://media.istockphoto.com/photos/trading-charts-on-a-display-picture-id1317587887?b=1&k=20&m=1317587887&s=170667a&w=0&h=L1Npj1k-fSnDAkafyzfeIL4LsVvue7sY-65AAiEQEdE="
+            src="https://images.unsplash.com/photo-1488034976201-ffbaa99cbf5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
             height={900}
             width="100%"
             className="slider-image"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
           <div className="container">
-            <h1>
+            <h1 style={{ color: "white" }}>
               Grow Using
               <br />
               Community Builder
             </h1>
-            <p>
+            <p style={{ color: "white" }}>
               Community builder helps you build,nurture,and
               <br />
               monetize trading communities.
@@ -146,7 +143,7 @@ const Sliderimage = () => {
           <div className="slide-3">
             <span
               style={{
-                fontWeight: "bold",
+                fontWeight: "300",
                 marginLeft: "10px",
                 marginRight: "10px",
               }}
@@ -157,11 +154,12 @@ const Sliderimage = () => {
             </span>
           </div>
           <img
-            src="https://th.bing.com/th/id/R.a191d60b4a83010bbd8e994924e90ab8?rik=31BUif0RgYMCYQ&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1560221328-12fe60f83ab8%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8MXx8b3B0aW9uJTIwdHJhZGluZ3x8MHx8fHwxNjI4OTE0NzI2%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=6kSuQvUMWntBYEboT%2bscGjUbjkBBam8gZicLN0ub5rA%3d&risl=&pid=ImgRaw&r=0"
+            src="https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
             height={900}
             width="100%"
             className="slider-image"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </SwiperSlide>
