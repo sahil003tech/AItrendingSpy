@@ -3,7 +3,7 @@ import "../Aboutcss/Third.css";
 
 const Third = () => {
   return (
-    <div className="top-container">
+    <div className="top-container" id="who-we-are">
       <div className="text-container">
         {/* left */}
         <div className="third-left">

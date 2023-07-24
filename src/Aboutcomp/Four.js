@@ -12,6 +12,7 @@ const Four = () => {
             alt=""
             width={480}
             height={240}
+            className="four-image-left"
           />
         </div>
         {/* right */}
@@ -35,13 +36,19 @@ const Four = () => {
               borderBottom: "1px solid black",
             }}
           />
-          <div style={{ marginBottom: "1.4rem", width: "100%" }}>
+          <div
+            style={{
+              marginBottom: "1.4rem",
+              width: "100%",
+              marginTop: "1.4rem",
+            }}
+          >
             <span
               style={{
                 fontSize: "1rem",
                 fontFamily: "Inter",
                 fontWeight: "400",
-                lineHeight: "1.4",
+                lineHeight: "1.7",
               }}
             >
               Our vision is to launch the new era of asset managment, where

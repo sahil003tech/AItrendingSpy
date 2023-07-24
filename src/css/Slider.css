@@ -18,14 +18,14 @@
     font-family: 'Inter';
     font-weight: 500;
 }
-h1{
+.container h1{
    color: white;
    /* row-gap: -10; */
    font-size: 60px;
    font-family: "Inter";
    font-weight:400
 }
-p{
+.container p{
     color: white;
     font-size: 20px;
 }
@@ -108,14 +108,15 @@ p{
     .slider-button{
         font-size: 10px;
     }
-    h1{
-        font-size: 30px;
+    .container h1{
+        font-size: 40px;
     }
-    p{
-        font-size: small;
+    .container p{
+        font-size: medium;
     }
     .slide-box{
         margin-left: 20%;
+        margin-top: 60%;
     }
     .slide-3{
         margin-left: 20%;
@@ -145,29 +146,55 @@ p{
 }
 @media (max-width:880px) {
     .slide-box{
-        margin-top: 70%;
+        margin-top: 80%;
     }
     .slide-1{
-        margin-top: 60%;
+        margin-top: 80%;
     }
     .slide-2{
         margin-top: 80%;
     }
     .slide-3{
-        margin-top: 70%;
+        margin-top: 80%;
     }
 }
 @media (max-width:400px) {
     .slide-box{
-        margin-top: 90%;
+        margin-top: 100%;
         margin-left: 10%;
+        width: 200px;
+
+    }
+    .slide-box span{
+        font-size: small;
     }
     .slide-1{
-        margin-top: 90%;
+        margin-top: 100%;
         margin-left: 10%;
+        width: 200px;
+    }
+    .slide-1 span{
+        font-size: small;
     }
     .slide-3{
-        margin-top: 90%;
+        margin-top: 100%;
         margin-left: 10%;
+        width: 200px;
+    }
+    .slide-3 span{
+        font-size: small;
+    }
+    .container{
+        margin-left: 40px;
+    }
+    .container h1{
+        font-size: 20px;
+        color: black;
+    }
+    .container p{
+        font-size: small;
+    }
+    .slider-button{
+        padding: 5px 30px;
     }
 }

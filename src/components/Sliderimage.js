@@ -22,7 +22,7 @@ const Sliderimage = () => {
       className="swiper-image"
     >
       <SwiperSlide>
-        <div>
+        <div style={{ position: "relative" }}>
           <div className="container">
             <h1 style={{ color: "white" }}>
               Build using

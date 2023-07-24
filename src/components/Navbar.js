@@ -51,7 +51,7 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
 import Logo from "../Images/navbar-logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -73,8 +73,8 @@ const Navbar = () => {
     <nav
       className={
         color
-          ? `navbar navbar-bg ${menuOpen ? "open" : ""}`
-          : `navbar ${menuOpen ? "open" : ""}`
+          ? `navbar navbar-bg  ${menuOpen ? "open" : ""}`
+          : `navbar  ${menuOpen ? "open" : ""}`
       }
     >
       <div className="logo">
@@ -87,7 +87,21 @@ const Navbar = () => {
         />
       </div>
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
-        <li>About ATS</li>
+        <li>
+          <div>
+            <NavLink
+              to="about"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+              className={color ? ` navbar-bg` : `link-color`}
+              style={{ textDecoration: "none" }}
+            >
+              About ATS
+            </NavLink>
+          </div>
+        </li>
         <li>How It Works</li>
         <li>Sign In</li>
         <li>

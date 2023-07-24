@@ -13,3 +13,8 @@
 .team-member{
     width: 30%;
 }
+@media (max-width:600px) {
+    .team-member{
+        width: 40%;
+    }
+}

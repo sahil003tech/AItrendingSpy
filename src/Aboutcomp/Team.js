@@ -8,7 +8,7 @@ const Team = () => {
         <div>
           <h2
             style={{
-              fontSize: "40px",
+              fontSize: "3vw",
               fontFamily: "Inter",
               fontWeight: "bold",
               marginBottom: "1.4rem",
@@ -29,11 +29,6 @@ const Team = () => {
         <div>
           <div className="team-inner">
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -48,16 +43,34 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
             {/* second */}
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -72,16 +85,34 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
             {/* third */}
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -96,16 +127,34 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
             {/* four */}
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -120,16 +169,34 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
             {/* five */}
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -144,16 +211,34 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
             {/* six */}
             <div className="team-member">
-              <img
-                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
-                alt=""
-                className="team-photo"
-              />
               <div style={{ marginTop: "30px" }}>
                 <p
                   style={{
@@ -168,7 +253,30 @@ const Team = () => {
                   <br />
                   Co-founder & CEO
                 </p>
-                <p>&nbsp;</p>
+              </div>
+              <img
+                src="https://aisot.com/hs-fs/hubfs/2-Jun-27-2023-07-38-03-6653-PM.png?width=1200&height=1200&name=2-Jun-27-2023-07-38-03-6653-PM.png"
+                alt=""
+                className="team-photo"
+              />
+              <div style={{ marginTop: "30px" }}>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontFamily: "Inter",
+                    fontWeight: "400",
+                    lineHeight: "1.7",
+                    color: "black",
+                    paddingLeft: "40px",
+                  }}
+                >
+                  Formerly Quantitative Trader at Cubist/Point72 & Ubs(10 years)
+                  where he developed nad traded directional and market making
+                  strategies. A Caltech PhD in CS(2002), Roman brings deep
+                  expertise in market micro-structure nad trade execution, and
+                  holds patents in stream computing and complex event
+                  processing.
+                </p>
               </div>
             </div>
           </div>

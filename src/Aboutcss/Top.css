@@ -14,12 +14,12 @@
     width: 60%;
 }
 .span-text{
-    font-size: 26px;
+    font-size: 2vw;
     font-family: 'Inter';
     font-weight: 400;
 }
 .h2-text{
-    font-size: 26px;
+    font-size: 2vw;
     font-family: 'Inter';
     font-weight: 300;
 }
@@ -36,4 +36,23 @@ a.arrow{
     color: #444;
     padding-left: 40px;
     text-align: left;
+}
+
+@media (max-width:600px) {
+    .text-container{
+        flex-direction: column;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .span-text{
+        font-size: 3vw;
+    }
+    .h2-text{
+        font-size: 3vw;
+    }
+    
 }

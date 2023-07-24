@@ -1,5 +1,6 @@
 import React from "react";
 import "../Aboutcss/Top.css";
+import { Link } from "react-router-dom";
 
 const Topdiv = () => {
   return (
@@ -13,7 +14,7 @@ const Topdiv = () => {
             <span>
               <h1
                 style={{
-                  fontSize: "58px",
+                  fontSize: "6vw",
                   lineHeight: "1.1",
                   fontFamily: "Inter",
                   fontWeight: "bold",
@@ -50,9 +51,13 @@ const Topdiv = () => {
             <h2 className="h2-text">Team</h2> */}
             <ul style={{ listStyle: "none" }}>
               <li style={{ marginBottom: "20px" }}>
-                <a href="#Third" className="arrow">
+                <Link
+                  to="/who-we-are"
+                  style={{ color: "black" }}
+                  className="arrow"
+                >
                   Who We Are
-                </a>
+                </Link>
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <a href="#Four" className="arrow">

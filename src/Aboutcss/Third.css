@@ -8,3 +8,19 @@
     padding: 0 1rem;
     width: 80%;
 }
+@media (max-width:600px) {
+    .third-left{
+        width: 100%;
+    }
+    .third-right{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .third-left{
+        width: 100%;
+    }
+    .third-right{
+        width: 100%;
+    }
+}

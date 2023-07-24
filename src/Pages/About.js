@@ -5,6 +5,9 @@ import Third from "../Aboutcomp/Third";
 import Four from "../Aboutcomp/Four";
 import Team from "../Aboutcomp/Team";
 import Advisor from "../Aboutcomp/Advisor";
+import Investors from "../Aboutcomp/Investors";
+import Partnars from "../Aboutcomp/Partnars";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -15,6 +18,9 @@ const About = () => {
       <Four />
       <Team />
       <Advisor />
+      <Investors />
+      <Partnars />
+      <Footer />
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Advisor = () => {
         <div>
           <h2
             style={{
-              fontSize: "40px",
+              fontSize: "3vw",
               fontFamily: "Inter",
               fontWeight: "bold",
               marginBottom: "1.4rem",
@@ -42,6 +42,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
@@ -67,6 +68,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
@@ -92,6 +94,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
@@ -117,6 +120,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
@@ -142,6 +146,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
@@ -167,6 +172,7 @@ const Advisor = () => {
                     fontWeight: "400",
                     color: "black",
                     paddingLeft: "40px",
+                    lineHeight: "1.6",
                   }}
                 >
                   <strong>Stefan Klauser</strong>
