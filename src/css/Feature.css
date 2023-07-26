@@ -21,7 +21,7 @@
 }
 @media (max-width:780px) {
     .logo-section{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 5fr 5fr 5fr;
         padding-bottom: 50px;

@@ -24,7 +24,7 @@ const Sliderimage = () => {
       <SwiperSlide>
         <div style={{ position: "relative" }}>
           <div className="container">
-            <h1 style={{ color: "white" }}>
+            <h1 className="slider-h1">
               Build using
               <br />
               Strategy Studio
@@ -67,12 +67,12 @@ const Sliderimage = () => {
       <SwiperSlide>
         <div>
           <div className="container">
-            <h1 style={{ color: "white" }}>
+            <h1 className="slider-h2">
               Optimize using
               <br />
               Trade Optimizer
             </h1>
-            <p style={{ color: "white" }}>
+            <p className="slider-p">
               Trade Optimizer are advanced machine learning
               <br />
               algorithms that meticulosly scrutinize and

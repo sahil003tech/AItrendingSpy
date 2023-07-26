@@ -28,26 +28,38 @@ const Investors = () => {
           />
         </div>
         <div
-          style={{ display: "flex", justifyContent: "center", width: "100%" }}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            alignItems: "center",
+          }}
         >
-          <img
-            src="https://aisot.com/hubfs/1-Jul-03-2023-06-46-15-2309-PM.png"
-            alt=""
-            width={200}
-            height={200}
-          />
-          <img
-            src="https://aisot.com/hubfs/2-Jul-03-2023-06-46-37-8327-PM.png"
-            alt=""
-            width={200}
-            height={200}
-          />
-          <img
-            src="https://aisot.com/hubfs/3-Jul-03-2023-06-46-57-4494-PM.png"
-            alt=""
-            width={200}
-            height={200}
-          />
+          <div
+            style={{
+              width: "50%",
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src="https://aisot.com/hubfs/1-Jul-03-2023-06-46-15-2309-PM.png"
+              alt=""
+              width={200}
+              height={200}
+            />
+            <img
+              src="https://aisot.com/hubfs/2-Jul-03-2023-06-46-37-8327-PM.png"
+              alt=""
+              width={200}
+              height={200}
+            />
+            <img
+              src="https://aisot.com/hubfs/3-Jul-03-2023-06-46-57-4494-PM.png"
+              alt=""
+              width={200}
+              height={200}
+            />
+          </div>
         </div>
       </div>
     </div>

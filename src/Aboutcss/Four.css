@@ -17,4 +17,8 @@
     .four-right{
         width: 100%;
     }
+    .four-image-left{
+        width: 400px;
+        overflow: hidden;
+    }
 }

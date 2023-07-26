@@ -134,7 +134,7 @@
 
 @media (max-width:575px) {
     .css-typing{
-        margin-top: 70px;
+        margin-top: 10px;
     }
     .css-typing h1 {
         font-size: 2.2rem;
@@ -144,7 +144,7 @@
 
 @media (max-width:380px) {
     .css-typing{
-        margin-top: 70px;
+        margin-top: 10px;
     }
     .css-typing h1 {
         font-size: 1.8rem;

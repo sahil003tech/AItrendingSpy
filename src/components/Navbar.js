@@ -51,7 +51,7 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
 import Logo from "../Images/navbar-logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -78,13 +78,15 @@ const Navbar = () => {
       }
     >
       <div className="logo">
-        <img
-          src={Logo}
-          alt=""
-          width={120}
-          height={40}
-          style={{ backgroundColor: "transparent", marginLeft: "40px" }}
-        />
+        <Link to="/">
+          <img
+            src={Logo}
+            alt=""
+            width={120}
+            height={40}
+            style={{ backgroundColor: "transparent", marginLeft: "40px" }}
+          />
+        </Link>
       </div>
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
         <li>
@@ -95,7 +97,11 @@ const Navbar = () => {
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
               // })}
-              className={color ? ` navbar-bg` : `link-color`}
+              className={
+                color
+                  ? `navbar-bg ${menuOpen ? "open" : ""}`
+                  : `link-color ${menuOpen ? "open" : ""}`
+              }
               style={{ textDecoration: "none" }}
             >
               About ATS

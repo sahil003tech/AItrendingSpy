@@ -11,7 +11,7 @@ const Action = () => {
           <br />
           help you trade
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "white", fontSize: "15px" }}>
           Trading needs an AI partner and no better
           <br />
           partner for regular traders than AITradingSpy.

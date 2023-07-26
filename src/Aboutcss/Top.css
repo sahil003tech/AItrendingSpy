@@ -1,5 +1,7 @@
 .top-container{
     padding: 80px 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .text-container{
     display: flex;
@@ -53,6 +55,9 @@ a.arrow{
     }
     .h2-text{
         font-size: 3vw;
+    }
+    .right-container .right-h1{
+        font-size: 30px;
     }
     
 }

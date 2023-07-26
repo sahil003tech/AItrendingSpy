@@ -14,11 +14,12 @@ const Topdiv = () => {
             <span>
               <h1
                 style={{
-                  fontSize: "6vw",
+                  fontSize: "60px",
                   lineHeight: "1.1",
                   fontFamily: "Inter",
                   fontWeight: "bold",
                   color: "black",
+                  className: "right-h1",
                 }}
               >
                 We amplify <br />
