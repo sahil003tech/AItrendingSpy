@@ -1,11 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import "../css/Footer.css";
 import Logo from "../Images/AITradingSpy_Logo_Simple_Transperent.png";
+import { Link, NavLink } from "react-router-dom";
+import "../css/Navbar.css";
 
 const Footer = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [color, setColor] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className="footer">
-      <div className="inside-footer">
+    <div className="footer mt-5 mt-auto "  >
+      <div className="inside-footer d-flex">
         <div style={{ display: "flex", flexDirection: "column" }}>
           <p
             style={{
@@ -72,6 +82,43 @@ const Footer = () => {
           />
         </div>
       </div>
+      <ul className="ms-5">
+      <li> <NavLink
+              to="stratergy"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+            
+              style={{ textDecoration: "none",color:'white' }}
+            >
+              Studio
+            </NavLink></li>
+            <li>
+            <NavLink
+              to="optimizer"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+            
+              style={{ textDecoration: "none",color:'white' }}
+            >
+              Optimizer
+            </NavLink>
+            </li>
+        <li> <NavLink
+              to="community"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+           
+              style={{ textDecoration: "none",color:'white' }}
+            >
+              Community Builder
+            </NavLink></li>
+      </ul>
     </div>
   );
 };

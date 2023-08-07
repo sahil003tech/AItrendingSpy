@@ -89,7 +89,7 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
-        <li>
+        {/* <li>
           <div>
             <NavLink
               to="about"
@@ -107,8 +107,65 @@ const Navbar = () => {
               About ATS
             </NavLink>
           </div>
+        </li> */}
+        {/* <li>How It Works</li> */}
+         <li>
+          <div>
+            <NavLink
+              to="stratergy"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+              className={
+                color
+                  ? `navbar-bg ${menuOpen ? "open" : ""}`
+                  : `link-color ${menuOpen ? "open" : ""}`
+              }
+              style={{ textDecoration: "none" }}
+            >
+              Studio
+            </NavLink>
+          </div>
         </li>
-        <li>How It Works</li>
+        <li>
+          <div>
+            <NavLink
+              to="optimizer"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+              className={
+                color
+                  ? `navbar-bg ${menuOpen ? "open" : ""}`
+                  : `link-color ${menuOpen ? "open" : ""}`
+              }
+              style={{ textDecoration: "none" }}
+            >
+              Optimizer
+            </NavLink>
+          </div>
+        </li>
+        <li>
+          <div>
+            <NavLink
+              to="community"
+              // style={({ isActive }) => ({
+              //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
+              //   textDecoration: "none",
+              // })}
+              className={
+                color
+                  ? `navbar-bg ${menuOpen ? "open" : ""}`
+                  : `link-color ${menuOpen ? "open" : ""}`
+              }
+              style={{ textDecoration: "none" }}
+            >
+              Community Builder
+            </NavLink>
+          </div>
+        </li>
         <li>Sign In</li>
         <li>
           <div style={{ marginRight: "40px" }}>

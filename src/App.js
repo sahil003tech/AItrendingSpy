@@ -3,6 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Pages/About";
 import Navbar from "./components/Navbar";
+import Stratergist from "./Pages/Stratergist";
+import Footer from "./components/Footer";
+import Optimizer from "./Pages/Optimizer";
+import Community from "./Pages/Community";
 
 function App() {
   return (
@@ -12,7 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/stratergy" element={<Stratergist/>}/>
+          <Route path="/optimizer" element={<Optimizer/>}/>
+          <Route path="/community" element={<Community/>}/>
         </Routes>
+        {/* <Footer/> */}
       </Router>
     </div>
   );
