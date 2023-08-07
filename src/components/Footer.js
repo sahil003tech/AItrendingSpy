@@ -84,7 +84,7 @@ const Footer = () => {
       </div>
       <ul className="ms-5">
       <li> <NavLink
-              to="stratergy"
+              to="/stratergy"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
@@ -96,7 +96,7 @@ const Footer = () => {
             </NavLink></li>
             <li>
             <NavLink
-              to="optimizer"
+              to="/optimizer"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
@@ -108,7 +108,7 @@ const Footer = () => {
             </NavLink>
             </li>
         <li> <NavLink
-              to="community"
+              to="/community"
               // style={({ isActive }) => ({
               //   color: isActive ? "lightgreen" : "black navbar-bg navbar",
               //   textDecoration: "none",
