@@ -125,7 +125,7 @@
     color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 971px) {
     .navbar {
         padding: 20px;
         align-items: flex-start;
@@ -142,7 +142,8 @@
 
     .menu.open {
         display: flex;
-        margin-left: -300px;
+        margin-left: 20px;
+        width:100vw;
     }
 
     .menu li {
@@ -156,6 +157,9 @@
 
     .menu-toggle {
         display: block;
+        position:absolute;
+        right:10px;
+        top:10px;
     }
     .navbar-bg {
         background-color: #000;
@@ -168,7 +172,7 @@
         color: white;
     }
 }
-@media (min-width:800px) {
+@media (min-width:970px) {
     .navbar-bg{
         background-color: #000;
         color: #fff;

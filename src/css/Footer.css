@@ -8,9 +8,9 @@
 .inside-footer{
     display: flex;
     justify-content: space-between;
-    padding: 36px 100px;
+    padding: 36px 50px;
 }
-@media (max-width:780px) {
+@media (max-width:1000px) {
     .inside-footer{
         flex-direction: column;
     }

@@ -88,6 +88,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
+      
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
         {/* <li>
           <div>
@@ -169,7 +170,11 @@ const Navbar = () => {
         <li>Sign In</li>
         <li>
           <div style={{ marginRight: "40px" }}>
-            <a href="#" style={{ textDecoration: "none" }} className="btn">
+            <a href="#" style={{ textDecoration: "none" }}  className={
+                color
+                  ? `navbar-bg ${menuOpen ? "open" : ""}`
+                  : `link-color ${menuOpen ? "open" : ""}`
+              }>
               Request Early Access
             </a>
           </div>
@@ -184,6 +189,8 @@ const Navbar = () => {
         <span></span>
       </div>
     </nav>
+
+
   );
 };
 
