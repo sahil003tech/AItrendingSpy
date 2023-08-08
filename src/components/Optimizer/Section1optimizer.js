@@ -6,8 +6,7 @@ import {AiFillCheckCircle} from 'react-icons/ai'
 const Section1optimizer = () => {
   return (
     <div style={{  backgroundColor: '#E3E2F8' }}>
-       <div className='col-sm-9 col-lg-10 col-11  mx-auto'>
-    <div className='' style={{ paddingTop:'100px'}} >
+    <div style={{height:'400px', width:'100vw', padding:'100px'}} >
     <div className='row d-flex justify-content-start'>
     <div className='col-md-9 col-xxl-8 col-11' style={{ marginRight:'0px'}}>
     <h6 className='px-3' style={{color:'#BD10E0'}}>OPTIMIZE YOUR TRADE</h6>

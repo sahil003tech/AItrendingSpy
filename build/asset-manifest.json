@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0dc9940.css",
+    "main.js": "/static/js/main.59c75215.js",
+    "static/media/photo-first-fotor-20230719154113.png": "/static/media/photo-first-fotor-20230719154113.70b4c42f2b8a6c53d0c8.png",
+    "static/media/photo-main-fotor-20230719151846.png": "/static/media/photo-main-fotor-20230719151846.fba49ebd797e8e1e50f9.png",
+    "static/media/photo-second-fotor-20230719163026.png": "/static/media/photo-second-fotor-20230719163026.661433afba509b5f30a3.png",
+    "static/media/Tradingimage.jpg": "/static/media/Tradingimage.8946a675f88e1c1917b5.jpg",
+    "static/media/magnifi.svg": "/static/media/magnifi.6750628d2140d3ba9717fb66a8fbe31b.svg",
+    "static/media/optimize.jpg": "/static/media/optimize.b256de87e27205035cc5.jpg",
+    "static/media/community.jpg": "/static/media/community.5833046aec753b363a13.jpg",
+    "static/media/image-apple.png": "/static/media/image-apple.0ebbdc89c46ded95565a.png",
+    "static/media/Untitled design (1).png": "/static/media/Untitled design (1).1eaf54ab8d808f406662.png",
+    "static/media/navbar-logo.png": "/static/media/navbar-logo.4ba5defde882361faefc.png",
+    "static/media/AITradingSpy_Logo_Simple_Transperent.png": "/static/media/AITradingSpy_Logo_Simple_Transperent.8cd555c5bc82aeade7f8.png",
+    "static/media/apple.svg": "/static/media/apple.4d419c0bdbb7341459982f9c41fa9e73.svg",
+    "static/media/android.svg": "/static/media/android.8eaee180c85d19c21e2f5402a80c585d.svg",
+    "index.html": "/index.html",
+    "static/media/tick.svg": "/static/media/tick.06f624b404cd1fc7b113b3ef083010ac.svg",
+    "main.e0dc9940.css.map": "/static/css/main.e0dc9940.css.map",
+    "main.59c75215.js.map": "/static/js/main.59c75215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0dc9940.css",
+    "static/js/main.59c75215.js"
+  ]
+}
